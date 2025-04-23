@@ -1,0 +1,1 @@
+pilates-icon - <div>Icons made by <a href="https://www.flaticon.com/authors/prashanth-rapolu-15" title="Prashanth Rapolu 15">Prashanth Rapolu 15</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
