@@ -9,8 +9,8 @@ function App() {
     <div className='h-screen flex flex-col items-center bg-gray-100 overflow-hidden'>
      <div className='w-full bg-white shadow-md'>
       <Header />
-      <Hero />
-     </div>    
+     </div>   
+     <Hero /> 
       <h1 className='text-4xl font-bold text-purple-600'>
         Welcome to Your Pilates Landing Page
       </h1>
