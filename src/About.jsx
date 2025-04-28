@@ -29,7 +29,7 @@ function About() {
                 yourself!           
                 </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div id="classes" className="flex justify-center items-center">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 w-full md:w-[80%] justify-items-center ">
             
                 <div className="flex flex-col md:flex-row lg:flex-col items-center max-w-[70%] md:max-w-full">
@@ -73,7 +73,7 @@ function About() {
                     <img src={about3_small} alt="reformer machines" loading="lazy"className="w-full h-full object-cover"/>
                     </picture> 
                     <div className="text-center mt-4 md:text-start lg:text-center md:flex-0 md:w-1/2 lg:w-auto">
-                        <h3 className="uppercase text-lg my-4 font-medium">Outdoors classes</h3>
+                        <h3 className="uppercase text-lg my-4 font-medium">Outdoor classes</h3>
                         <p className="mt-4 leading-relaxed tracking-wide text-gray-700">Experience the joy of Pilates in the fresh air with our outdoor classes.
                         These sessions are designed to combine the benefits of Pilates with the rejuvenating 
                         effects of being in nature. Whether in a park or another scenic location, 

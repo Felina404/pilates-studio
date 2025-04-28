@@ -21,10 +21,10 @@ function Header() {
             </div>
             <div>
                 <nav className="hidden md:flex space-x-4 p-2">
-                    <a href="#home" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out">Home</a>
-                    <a href="#about" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out">About</a>
-                    <a href="#about" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out">About</a>
-                    <a href="#about" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out">About</a>
+                    <a href="#home" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">Home</a>
+                    <a href="#about" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">About Us</a>
+                    <a href="#classes" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">types of classes</a>
+                    <a href="#prices" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">prices</a>
                 </nav>
             </div>   
         </header>   
