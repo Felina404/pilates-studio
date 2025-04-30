@@ -4,6 +4,8 @@ import Header from './Header'
 import Hero from './Hero'
 import About from './About'
 import Prices from './Prices'
+import Contact from './Contact'
+import Footer from './Footer'
 function App() {
 
   return (
@@ -12,10 +14,12 @@ function App() {
       <Header />
      </div>   
      <Hero /> 
-     <main className='w-full h-full'>
+     <main className='w-full'>
       <About />
       <Prices />
+      <Contact />
      </main>
+     <Footer className='w-full h-full'/>
     </div>
   )
 }

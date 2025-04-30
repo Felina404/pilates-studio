@@ -25,6 +25,7 @@ function Header() {
                     <a href="#about" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">About Us</a>
                     <a href="#classes" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">types of classes</a>
                     <a href="#prices" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">prices</a>
+                    <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-all duration-300 ease-in-out uppercase">contact</a>
                 </nav>
             </div>   
         </header>   
