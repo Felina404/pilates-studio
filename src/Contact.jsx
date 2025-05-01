@@ -17,7 +17,7 @@ function Contact() {
         <div id="contact" className="w-full relative flex flex-col items-center justify-center p-4 bg-pink-300">
        
        <div className="flex flex-col items-center justify-center gap-4">
-            <p className="text-lg m-4">We will be happy to answer any questions you may have.</p>
+            <p className="text-lg m-4 italic">We will be happy to answer any questions you may have.</p>
             <form className="flex flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="name" className="sr-only">Name</label>
                 <input {...register("name", {required: "Name is required"})}

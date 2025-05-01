@@ -14,7 +14,7 @@ function About() {
         <>
          <div id="about" className="w-full flex flex-col items-center justify-center p-4">
             <h1 className="text-[clamp(3rem,5vw,6rem)] uppercase font-extralight text-center m-2 md:w-1/2">Transform your mind & body</h1>
-            <p className="text-left mt-4 w-[90%] md:w-[70%] text-lg leading-relaxed tracking-wide text-gray-700 md:text-gray-600">At myPilates, we belive focus on the mind to body 
+            <p className="text-left mt-4 w-[90%] md:w-[70%] text-lg leading-relaxed tracking-wide text-gray-700">At <em>myPilates</em>, we belive focus on the mind to body 
                 connection is the key to a successful Pilates practice.
                 Our classes are designed to help you develop a deeper
                 understanding of your body and how it moves. We offer

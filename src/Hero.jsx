@@ -1,8 +1,7 @@
-import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 import hero_img from "./assets/hero_img.jpg";
 function Hero() {
+
     return (
         <div className="w-full relative">
         <img
@@ -19,7 +18,8 @@ function Hero() {
           <h2 className="mb-2 text-xl md:text-2xl">
             Mat and reformer pilates of all levels
           </h2>
-          <button className="mt-4 text-2xl md:text-3xl border-2 bg-purple-500 px-8 py-2 rounded-full hover:bg-purple-800">
+          <button onClick={() => document.getElementById("prices").scrollIntoView( { behavior: "smooth"})}
+          className="mt-4 text-2xl md:text-3xl border-2 bg-purple-500 px-8 py-2 rounded-full hover:bg-purple-800">
             Book Now
           </button>
         </div>
