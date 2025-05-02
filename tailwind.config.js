@@ -6,6 +6,19 @@ export default {
   ],
   theme: {
     extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#F3D0D7',       // Primary (main pink)
+              background: '#FFE2E2',    // Light background pink
+              contrast: '#AAAAAA',      // White for on-primary
+              // contrast: '#5030db',      // White for on-primary
+            },
+            secondary: '#F6F5F2',
+            accent: '#F0A8D0',
+            surface: '#F6F5F2',
+            darkBg: '#dfdedf',
+            text: '#000000'
+          }, 
       animation: {
         dropdown: "dropdown 300ms ease-in-out",
       },
